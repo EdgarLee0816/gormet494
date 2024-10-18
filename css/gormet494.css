@@ -88,7 +88,7 @@ header {
 }
 
 #fade { 
-    /* border:2px solid red; */
+    
     height:330px;
     width:100%; 
 }
@@ -107,7 +107,7 @@ header {
     display: flex;    
     margin-top:40px;
     width:100%;
-    /* border:2px solid red; */
+   
 }
 
 #notigal h2 { 
