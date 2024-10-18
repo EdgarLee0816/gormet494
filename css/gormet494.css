@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+*{margin:0; padding:0; box-sizing: border-box;}
+
+#layout { 
+    max-width:1200px;
+    margin:auto;
+    /* border:2px solid red; */
+}
+
+img { display:block;}
+
+a { display:block; }
+
+header { 
+    display:flex;
+    height:110px;
+    background-color: black;
+    position:relative;
+    z-index: 2;
+    
+}
+
+#logo { 
+    flex:1;
+    position:absolute;
+    margin:15px;  
+    /* border:2px solid red; */
+    z-index: 2;
+}
+
+#menu { 
+    flex:1; 
+    z-index: 1;    
+    /* border:2px solid yellow; */
+    width:100%;
+    height: 110px;  
+    overflow: hidden;
+}
+
+#menu ul {
+    display:flex;
+    margin-top: 50px;    
+    width:100%;
+    justify-content: flex-end;
+    background: rgba(0,0,0,0.85);        
+}
+
+#menu ul li {
+    margin-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+}
+
+#menu ul li a{  
+   text-decoration: none;
+   color:white;
+   list-style: none;
+   line-height: 250%;
+   text-align: center;
+   font-weight: bold;
+}
+
+.mainMenu { 
+    margin-bottom: 10px;
+    /* border:2px solid blue; */
+}
+
+.subMenu { 
+    line-height: 300%;    
+    border:2px solid red;
+    overflow: hidden;        
+}
+
+#fade { 
+    /* border:2px solid red; */
+    height: 330px;
+    width:100%;
+}
+
+#fadeslide img{ 
+    position:absolute;
+    margin-top:40px;
+}
+
+#notigal { 
+    display: flex;
+    /* border:2px solid gold; */
+    margin-top:40px;
+}
+
+#notigal h2 { 
+    border:2px solid red;
+    display:inline-block;
+    padding:10px;
+    font-size: 0.9rem;
+}
+
+#notice { 
+    flex:1;
+    padding:10px;
+}
+
+#notice a{ 
+    flex:1;   
+    margin-top:10px;
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+}
+
+#notice span { 
+    float: right;
+}
+
+#gallery {     
+    flex:1;
+    padding:10px;
+}
+
+#gallery h2 {     
+    margin-left:20px;
+}
+
+#gallery div { 
+    text-align: center;
+    margin-top:5px;
+}
+
+#gallery img { 
+    text-align: center;
+    align-content: center;
+}
+
+#gallery a { 
+    border:2px solid burlywood;
+    flex:1;
+    display:inline-block;    
+    align-content: center;
+}
+
+#quick {     
+    align-content: center;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding:10px;
+}
+
+footer { 
+    display: flex;
+    /* border:2px solid red; */
+    background-color: #e6e6e6; 
+    margin-top:40px;
+}
+
+footer #info { 
+    margin:20px;
+}
+
+footer a{ 
+    display:inline-block;
+    text-decoration: none;
+    color:black;
+    font-size: 0.9rem;
+}
+
+footer p{
+    font-size: 0.8rem;    
+}
+
+footer #family { 
+    /* border:2px solid red; */  
+    margin:30px;
+    
+}
+
+#black { 
+    z-index: 2;
+    position: absolute;
+    top:0;
+    background: rgba(0,0,0,0.9);
+    width:100vw;
+    height: 100vh;
+    display: none;
+    
+}
+
+#black #popup{    
+    margin-left:600px;   
+    text-align:end;
+    border:2px solid yellow;
+    display: inline-block;
+    padding:30px;
+    background-color: white;
+    margin-top: 300px;
+}
+
+
+
+
+
+
+
